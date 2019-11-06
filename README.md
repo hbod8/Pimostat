@@ -16,7 +16,7 @@ A Raspberry Pi thermostat system with multiple node capability.
 
 ## Implementation
 
-`Control Pi:
+Control Pi:
 
  ----------------         ----------------         ---------------- 
 | Apache Web     |       | NODE REST      |       | Database       |
@@ -34,7 +34,7 @@ Node Pi:
                          | NODE REST      |       | Database       |
                          | API +          | ----> |                |
                          | Sensor         |       |                |
-                          ----------------         ---------------- `
+                          ----------------         ---------------- 
 
 ## Disclaimer
 
