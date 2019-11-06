@@ -18,11 +18,11 @@ A Raspberry Pi thermostat system with multiple node capability.
 
 `Control Pi:
 
-*----------------*       *----------------*       *----------------*
+ ----------------         ----------------         ---------------- 
 | Apache Web     |       | NODE REST      |       | Database       |
 | Server         | ----> | API +          | ----> |                |
 |                |       | Sensor         |       |                |
-*----------------*       *----------------*       *----------------*
+ ----------------         ----------------         ---------------- 
 
                                  |
                                  |
@@ -30,11 +30,11 @@ A Raspberry Pi thermostat system with multiple node capability.
                                  |
                                  v
 Node Pi:
-                         *----------------*       *----------------*
+                          ----------------         ---------------- 
                          | NODE REST      |       | Database       |
                          | API +          | ----> |                |
                          | Sensor         |       |                |
-                         *----------------*       *----------------*`
+                          ----------------         ---------------- `
 
 ## Disclaimer
 
