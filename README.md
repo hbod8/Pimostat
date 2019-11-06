@@ -23,13 +23,13 @@ A Raspberry Pi thermostat system with multiple node capability.
 | Server         | ----> | API +          | ----> |                |
 |                |       | Sensor         |       |                |
  ----------------         ----------------         ---------------- 
-
-                                 |
-                                 |
-                                 |
-                                 |
-                                 v
-Node Pi:
+                                                                    
+                                 |                                  
+                                 |                                  
+                                 |                                  
+                                 |                                  
+                                 v                                  
+Node Pi:                                                            
                           ----------------         ---------------- 
                          | NODE REST      |       | Database       |
                          | API +          | ----> |                |
