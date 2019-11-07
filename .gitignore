@@ -1,0 +1,25 @@
+.DS_STORE
+
+/source/angular/pimostat/dist/
+e2e_test.*
+*.log
+node_modules
+tools/gulp-tasks/cldr/cldr-data/
+
+# Don't check in secret files
+*secret.js
+
+# Ignore npm/yarn debug log
+npm-debug.log
+yarn-error.log
+
+# build-analytics
+.build-analytics
+
+# rollup-test output
+/source/angular/pimostat/modules/rollup-test/dist/
+
+# User specific bazel settings
+.bazelrc.user
+
+.notes.md
